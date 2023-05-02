@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor", "Blazor\Blazor.csproj", "{6EE7C143-07CC-4FDA-94AB-766512722054}"
+	ProjectSection(ProjectDependencies) = postProject
+		{19504597-A40F-427B-A4B8-A28594DFA7AB} = {19504597-A40F-427B-A4B8-A28594DFA7AB}
+		{74097DE2-8F3B-4994-BFA0-46033449552F} = {74097DE2-8F3B-4994-BFA0-46033449552F}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Datos", "Datos\Datos.csproj", "{19504597-A40F-427B-A4B8-A28594DFA7AB}"
 EndProject
