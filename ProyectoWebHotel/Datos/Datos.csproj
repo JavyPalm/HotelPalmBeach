@@ -7,8 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Dapper" Version="2.0.123" />
     <PackageReference Include="MySql.Data" Version="8.0.33" />
+=======
+    <PackageReference Include="CurrieTechnologies.Razor.Clipboard" Version="1.6.0" />
+    <PackageReference Include="CurrieTechnologies.Razor.SweetAlert2" Version="5.5.0" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+    <PackageReference Include="MySql.Data" Version="8.0.33" />
+    <PackageReference Include="Radzen.Blazor" Version="4.10.1" />
+>>>>>>> ebc9539c1623b014f4adf07874cc484a1d4939c1
   </ItemGroup>
 
   <ItemGroup>

@@ -9,6 +9,7 @@
 
 <div class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
     <nav class="flex-column">
+<<<<<<< HEAD
         <AuthorizeView Roles="Administrador, Usuario">
             <Authorized>
                 <div class="nav-item px-3">
@@ -39,16 +40,49 @@
             </Authorized>
         </AuthorizeView>
 
+=======
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Inicio
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="oi oi-plus" aria-hidden="true"></span> Usuarios
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fetchdata">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            </NavLink>
+        </div>
+>>>>>>> ebc9539c1623b014f4adf07874cc484a1d4939c1
         <AuthorizeView Roles="Administrador, Usuario">
             <Authorized>
                 <div class="nav-item px-3">
                     <NavLink class="nav-link" href="NuevaFactura">
+<<<<<<< HEAD
                         <span class="oi oi-code" aria-hidden="true"></span> Factura
+=======
+                        <span class="oi oi-badge" aria-hidden="true"></span> Reservaciones
+>>>>>>> ebc9539c1623b014f4adf07874cc484a1d4939c1
                     </NavLink>
                 </div>
             </Authorized>
         </AuthorizeView>
 
+<<<<<<< HEAD
+=======
+        <AuthorizeView Roles="Administrador">
+            <Authorized>
+                <div class="nav-item px-3">
+                    <NavLink class="nav-link" href="Facturas">
+                        <span class="oi oi-dollar" aria-hidden="true"></span> Facturas
+                    </NavLink>
+                </div>
+            </Authorized>
+        </AuthorizeView>
+>>>>>>> ebc9539c1623b014f4adf07874cc484a1d4939c1
     </nav>
 </div>
 

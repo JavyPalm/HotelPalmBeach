@@ -7,10 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+<<<<<<< HEAD
 Config cadenaConexion = new Config(builder.Configuration.GetConnectionString("MySQL"));
 builder.Services.AddSingleton(cadenaConexion);
 
 builder.Services.AddScoped<ILoginServicio, ILoginServicio>();
+=======
+//builder.Services.AddSingleton<WeatherForecastService>();
+>>>>>>> ebc9539c1623b014f4adf07874cc484a1d4939c1
 
 var app = builder.Build();
 
